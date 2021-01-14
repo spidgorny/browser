@@ -10,7 +10,7 @@ HTML. Browsers do this by sending an `Accept: text/html` header.
 If this middleware spots this, it will kick in and auto-generate a great looing
 HTML document.
 
-If this header was not provides, this middleware does nothing.
+If this header was not provided, this middleware does nothing.
 
 It automatically decorates the following formats:
 
@@ -137,7 +137,7 @@ import { Application } from 'curveball/@core';
 import browser from '@curveball/browser';
 
 const app = new Application();
-app.use(browser({});
+app.use(browser({}));
 ```
 
 
